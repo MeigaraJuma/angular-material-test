@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatButtonModule, MatCheckboxModule, MatProgressBarModule, MatRadioModule, MatCardModule, MatListModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatProgressBarModule, MatRadioModule,
+         MatCardModule, MatListModule, MatToolbarModule } from '@angular/material';
 import { MatIconModule } from '@angular/material/icon';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   imports: [
@@ -12,7 +14,9 @@ import { MatIconModule } from '@angular/material/icon';
     MatRadioModule,
     MatCardModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule,
+    MatGridListModule
   ],
   exports: [
     MatButtonModule,
@@ -21,7 +25,9 @@ import { MatIconModule } from '@angular/material/icon';
     MatRadioModule,
     MatCardModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule,
+    MatGridListModule
   ],
   declarations: []
 })
